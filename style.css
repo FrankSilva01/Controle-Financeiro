@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-size: 18px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+#container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  background-color: rgb(30, 96, 130);
+  border: 1px solid white;
+}
+
+ul,
+li {
+  width: 400px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+}
+
+input {
+  text-align: center;
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 150px;
+}
+
+#BtnAdicionar {
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  position: relative;
+  left: -8px;
+  top: 50px;
+}
+
+#BtnAdicionarGasto {
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  position: relative;
+  left: -8px;
+  top: 50px;
+}
+
+#produto {
+  position: relative;
+  right: -50px;
+  top: 50px;
+}
+
+#valorGanho {
+  width: 50px;
+  border-radius: 20px;
+  position: relative;
+  top: 50px;
+  right: 340px;
+  margin-bottom: 0px;
+}
+
+#valorGasto {
+  width: 50px;
+  border-radius: 20px;
+  position: relative;
+  top: 50px;
+  right: 340px;
+  margin-bottom: 0px;
+}
+
+#listaValor,
+#listaItem {
+  max-width: 450px;
+  max-height: 400px;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#listaSaida,
+#listaGastos {
+  max-width: 450px;
+  max-height: 400px;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3px;
+}
+
+#entrada {
+  position: relative;
+  top: 50px;
+  right: 90px;
+}
+
+#itemGasto {
+  position: relative;
+  top: 50px;
+  right: 90px;
+}

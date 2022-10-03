@@ -87,34 +87,3 @@ function valorFinal() {
       
   }
 }
-
-
-
-// function testeApi() {
-//   fetch(`https://jsonplaceholder.typicode.com/todos`)
-//     .then((response) => response.json())
-//     .then((data) => {
-//       data.map((item) => {
-//         li = document.createElement("li");
-
-//         li.textContent = item.id;
-//         const listaItem = document.querySelector("#listaItem");
-//         listaItem.appendChild(li);
-//         li = document.createElement("li");
-
-//         li.textContent = item.title;
-//         const listaValor = document.querySelector("#listaValor");
-//         listaValor.appendChild(li);
-
-//         console.log(item);
-//       });
-//     });
-// }
-
-//  cabelo 2.400
-//  oculos 600
-//  camisa 3.000
-//  calça 3.000
-//  tenis 2.400
-//  luva 600
-//  asa 900
